@@ -8,6 +8,9 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/sirius
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
