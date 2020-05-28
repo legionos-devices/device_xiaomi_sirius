@@ -45,6 +45,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm710
 TARGET_KERNEL_CONFIG := sirius_defconfig
 BUILD_BROKEN_DUP_RULES := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno616
