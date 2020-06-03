@@ -219,3 +219,24 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ssr.enable_ramdumps=0 \
     persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# Touch
+PRODUCT_PROPERTY_OVERRIDES += \
+    touch.deviceType=touchScreen \
+    touch.orientationAware=1 \
+    touch.size.calibration=diameter \
+    touch.size.scale=1 \
+    touch.size.bias=0 \
+    touch.size.isSummed=0 \
+    touch.pressure.calibration=amplitude \
+    touch.pressure.scale=0.001 \
+    touch.orientation.calibration=none \
+    touch.distance.calibration=none \
+    touch.distance.scale=0 \
+    touch.coverage.calibration=box \
+    touch.gestureMode=spots \
+    MultitouchSettleInterval=1ms \
+    MultitouchMinDistance=1px \
+    TapInterval=1ms \
+    TapSlop=1px \
+    persist.device_config.runtime_native.usap_pool_enabled=true
