@@ -1058,6 +1058,9 @@
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
 
+    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
+    <bool name="config_defaultRingtonePickerEnabled">true</bool>
+
     <!-- Livedisplay -->
     <bool name="config_filterDisplayModes">true</bool>
     <string-array name="config_displayModeMappings" translatable="false">
